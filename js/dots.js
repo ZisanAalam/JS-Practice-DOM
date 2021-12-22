@@ -5,6 +5,10 @@ pointsDiv.style.width = "400px";
 pointsDiv.style.border = "1px solid black";
 // pointsDiv.style.margin = "50px 100px";
 pointsDiv.style.position = "relative";
+pointsDiv.style.float = 'left';
+pointsDiv.style.left = '100px';
+pointsDiv.style.top = '100px';
+
 
 
 var points = [
@@ -46,4 +50,4 @@ Array.from(dots).forEach(element => {
         element.style.backgroundColor = "#1d86b3";
     }
 });
-console.log(dot);
+
